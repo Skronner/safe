@@ -7,28 +7,11 @@
 	echo $config['db']['organograma']['username'];
 	
 	$texto = "Texto de teste";
-	
+
 	require_once(TEMPLATES_PATH."/header.php");
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-
-     <!--Import Google Icon Font-->
-      <!--
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      -->
-      <!--
-     <link rel="stylesheet" href="css/material-icons.css">
-      -->
-      <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
-      <link type="text/css" rel="stylesheet" href="fonts/material-icons/material-icons.css" media="screen,projection"/>
-	
-	 
-
-
-	<script type="text/javascript">
+<body>
+<script type="text/javascript">
 	function buscarFunci() {
 		document.getElementById("Teste").innerHTML = "Teste2";
 			
@@ -50,9 +33,6 @@
 		  xhttp.send();		  
 		}
 	</script>
-</head>
-<body>
-
 <div id = "container" class = "container">	
 
 <i class="material-icons">face</i>
@@ -69,8 +49,6 @@
 	
 </div>	
 
-      <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
 
 
 </body>
