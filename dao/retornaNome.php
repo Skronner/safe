@@ -1,6 +1,6 @@
 <?php
 
-$con=mysqli_connect("localhost","root","","organograma");
+$con=mysqli_connect("localhost","root","umbrella360","organograma");
 // Check connection
 if (mysqli_connect_errno())
 {
